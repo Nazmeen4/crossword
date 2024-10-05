@@ -1,0 +1,103 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.crossword {
+  margin: 20px auto;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse; /* Ensures no double borders */
+  border: 2px solid #333; /* Outer border for the entire grid */
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #333; /* Cell borders */
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  background-color: white;
+}
+
+.cell-number {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 12px;
+  color: #333;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
+
+input:focus {
+  background-color: #e0f7fa;
+}
+
+input[disabled] {
+  background-color: #ccc; /* Grey out disabled cells */
+}
+
+.clues {
+  margin-top: 20px;
+}
+
+#check-answers {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* style.css */
+
+/* Other styles remain the same */
+
+td {
+  width: 40px;
+  height: 40px;
+  position: relative; /* Added to position numbers */
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+}
+.cell-number {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 12px;
+  color: #333;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
